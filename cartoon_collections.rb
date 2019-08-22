@@ -31,7 +31,7 @@ def find_the_cheese(array)# code an argument here
   array.map {|index| 
   if array.include?(cheese_types) == true
     return cheese_types
-    
+    break
   else
     return nil
   end

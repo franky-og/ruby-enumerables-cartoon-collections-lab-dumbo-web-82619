@@ -30,7 +30,7 @@ def find_the_cheese(array)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   array.map {|index| 
   if array.include?(cheese_types) == true
-    return cheese_types
+    return index
     break
   else
     return nil

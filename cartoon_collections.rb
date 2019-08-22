@@ -20,6 +20,7 @@ def long_planeteer_calls(array)# code an argument here
     break
     else 
       result = false
+    end
   }
   return result
 end

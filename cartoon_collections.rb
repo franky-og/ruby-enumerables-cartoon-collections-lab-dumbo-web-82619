@@ -14,7 +14,13 @@ end
 def long_planeteer_calls(array)# code an argument here
   # Your code here
   result = false
-  array.map {|index| index.length > 4? {result = true break} : result = false}
+  array.map {|index| 
+  if index.length > 4 
+    result = true
+    break
+    else 
+      result = false
+  }
   return result
 end
 
